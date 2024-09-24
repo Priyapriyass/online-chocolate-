@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+   
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+   
+    <div class="containers">
+        <div class="form">
+            <h1>Contact Us Form</h1>
+            <input type="text" id="First" placeholder="First Name" >
+            <input type="text" id="name" placeholder="Last Name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="number" id="mobile" placeholder="Mobile">
+            <h4>Type your message here....</h4>
+            <textarea id="textarea" ></textarea>
+            <input type="submit" value="send" id="button" onclick="func()">
+         </div>
+   </div>
+
+   <script>
+    function func(){
+        var First = document.getElementById("First").value;
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var mobile = document.getElementById("mobile").value;
+        var textarea = document.getElementById("textarea").value;
+        if(First == "" ){
+            alert("Please enter the data's !")
+            
+        }
+        else if(name == "" ){
+            alert("Please enter the data's !")
+        }
+
+        else if(email ==""){
+            alert("Please enter the data's !")
+        }
+        else if(mobile ==""){
+            alert("Please enter the data's !" )
+        }
+        else if(textarea ==""){
+            alert("Please enter the data's !" )
+        }
+        else{
+            alert("Your Informations are considered")
+            window.location.href ="choco.html";
+        }
+        }
+       </script>
+
+            </body>
+</html>

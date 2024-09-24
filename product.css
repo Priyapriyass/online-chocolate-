@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+     
+}
+ 
+.mk{
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(8, 8, 8);
+  background-color: rgb(182, 180, 180);
+  
+ }   
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   margin-left: 70px;
+   margin-top: 0px;
+  
+   color:rgb(8, 8, 8);
+ background-color: rgb(182, 180, 180);
+margin-left: 0px;
+}
+.bat{
+   
+    border-radius: 10px;
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
+    width: 300px;
+   background-color: rgb(191, 190, 196);
+    border:2px solid #0c0c0c;
+    box-sizing: content-box;
+    
+}
+.bat img{
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 10px; 
+    width: 200px;
+    height: 200px;
+    border:2px solid #0c0c0c;
+   
+}
+.bat h1{
+    font-size: 1.5em;
+    margin 10px 0;
+    margin-top: 10px;
+    
+}
+.bat p{
+    margin: 5px 0;
+    margin-top: 10px;
+}
+.bat button{
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(253, 252, 252);
+    background: rgb(8, 8, 8);
+    
+}
+.product button:hover{
+    background-color: #5f5e66;
+    
+}
+.km{
+    width: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+footer .kumar{
+    background-color: black;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+.footer-col ul{
+    list-style: none;
+}
+
+.footer-col h4{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 22px;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.footer-col h4::before{
+    content: '';
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background-color: #e91e64;
+    bottom: -10px;
+}
+
+.footer-col ul li{
+    padding: 10px 0;
+}
+.footer-col ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footer-col ul li a:hover{
+    opacity: 1;
+    padding-left: 10px;
+}
+.footer-col input{
+    border: none;
+    width: 250px;
+    height: 45px;
+    display: block;
+    padding-left: 20px;
+    margin: 14px 0;
+}
+
+.footer-col .inputSubmit{
+    padding: 0px 20px;
+    background-color: #e91e64;
+    border: none;
+    color: white;
+}
+.col p{
+    color: white;
+}
+.footer-col.social-links{
+    display: inline-block;
+   padding:20px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border:2px solid black;
+    
+}

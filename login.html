@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My project</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="wrap">
+        <form action="choco.html">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username">
+                
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="password" required>
+               
+            </div>
+            <div class="remember">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forget password</a>
+            </div>
+            <button type="submit" class="btn"><a href="choco.html">Login</a></button>
+            <div class="register">
+                <p>Don't have an account?</p>
+            </div>
+        </form>
+    </div>
+    <script>
+        function func(){
+            var email = document.getElementById("username").value;
+            var pass = document.getElementById("password").value;
+            if(email == 'priyaselvam0502@gmail.com' && pass == '270595'){
+                alert("login successful!")
+                window.location.assign("choco.html") 
+                
+            }
+            else{
+                alert("please enter valid mail ")
+            } 
+        }   
+    </script>
+</body>
+</html>
+    

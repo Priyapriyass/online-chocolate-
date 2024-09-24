@@ -1,0 +1,32 @@
+.container{
+    border: 5px solid red;
+    position: relative;
+}
+.container .box{
+    background-color:teal;
+    border: 2px solid purple;
+    color: aquamarine; 
+    width: 20%;
+    background-image: url(amazing-beautiful-beauty-blue.jpg);
+    background-size: cover;
+    width: 220px;
+    height:220px ;
+}
+#a{
+    position: absolute;
+    right: 0%;
+    top: 0px;
+}
+h1{
+    position: fixed;
+    color: blue;
+    left: 1%;
+    top: 0px;
+}
+#b{
+    
+    position: sticky;
+    text-align: center;
+
+}
+
